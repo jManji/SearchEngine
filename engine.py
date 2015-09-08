@@ -87,7 +87,6 @@ class SearchEngine(object):
                 if self.artists.get(index): # if artists of that age exist, append them
                     return_list += self.artists.get(index)
                     
-        #return json.dumps(return_list)
         return return_list
         
     def add_artist(self, artist):
